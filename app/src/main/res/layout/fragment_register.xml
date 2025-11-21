@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".RegisterFragment">
+    tools:context=".views.register.RegisterFragment">
 
     <ImageView
         android:layout_gravity="center"

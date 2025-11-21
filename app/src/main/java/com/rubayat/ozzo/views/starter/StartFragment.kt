@@ -1,14 +1,16 @@
-package com.rubayat.ozzo
+package com.rubayat.ozzo.views.starter
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.rubayat.ozzo.R
 import com.rubayat.ozzo.databinding.FragmentStartBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class StartFragment : Fragment() {
 
     lateinit var binding: FragmentStartBinding
@@ -26,7 +28,7 @@ class StartFragment : Fragment() {
     private fun setListener() {
        with(binding){
            btnLogin.setOnClickListener {
-               findNavController().navigate(R.id.action_startFragment_to_logInFragment)
+               findNavController().navigate(R.id.action_startFragment_to_loginFragment)
            }
            btnRegister.setOnClickListener {
                findNavController().navigate(R.id.action_startFragment_to_registerFragment)

@@ -6,4 +6,5 @@
     </style>
 
     <style name="Theme.OZZo" parent="Base.Theme.OZZo" />
+    <style name="Theme.OZZo.App.Bar" parent="Theme.Material3.DayNight"/>
 </resources>

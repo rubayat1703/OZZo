@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_nav"
+    app:startDestination="@id/myProductFragment">
+
+    <fragment
+        android:id="@+id/myProductFragment"
+        android:name="com.rubayat.ozzo.views.dashboard.seller.product.MyProductFragment"
+        android:label="My Product"
+        tools:layout="@layout/fragment_my_product" />
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.rubayat.ozzo.views.dashboard.seller.upload.UploadFragment"
+        android:label="Upload Product"
+        tools:layout="@layout/fragment_upload" />
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.rubayat.ozzo.views.dashboard.seller.profile.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
+</navigation>
